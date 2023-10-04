@@ -5,7 +5,7 @@ import Article from './Article';
 import TopArticle from './TopArticle';
 import styles from '../styles/Home.module.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function Home() {
   const bookmarks = useSelector((state) => state.bookmarks.value);
